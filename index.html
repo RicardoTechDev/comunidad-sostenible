@@ -2,226 +2,419 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Comunidad Sostenible</title>
 		<!-- Acá enlazo el grid elegido-->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/utilities.css">
 		<link rel="stylesheet" href="css/main.css">
-		<link rel="stylesheet" href="css/bootstrap.css">
 	</head>
 	<body>
 		<div class="container">
-			<header class="row">
-				<nav class="navbar navbar-expand-lg navbar-light">
-					<div class="container-fluid">
-					  <img src="img/ecomunidad-logo.png" width="80" height="80" alt="">
-					  <div class="collapse navbar-collapse" id="navbarNav">
-						<ul class="navbar-nav">
-						  <li class="nav-item">
-							<a class="nav-link" href="#">Nosotros</a> 
-						  </li>
-						  <li class="nav-item">
-							<a class="nav-link" href="#">Servicios</a>
-						  </li>
-						  <li class="nav-item">
-							<a class="nav-link" href="#">Proyectos</a>
-						  </li>
-						  <li class="nav-item">
-							<a class="nav-link" href="#">Equipos</a>
-						  </li>
-						  <li class="nav-item">
-							<a class="nav-link" href="#">Blogs</a>
-						  </li>
-						  <li class="nav-item">
-							<a class="nav-link" href="#">Siguenes</a>
-						  </li>
-						</ul>
-					  </div>
-					</div>
-				  </nav>
+			<header class="row my-2">
+				<div class="col-4 text-center">
+					<img id="logo" src="img/ecomunidad-logo.png">
+				</div>
+				<div class="col-8 pt-4">
+					<nav class="navbar navbar-expand-lg">
+						<div class="collapse navbar-collapse" id="navbarNav">
+							<ul class="navbar-nav">
+							<li class="nav-item">
+								<a class="nav-link text-bold text-gray" href="#">Nosotros</a> 
+							</li>
+							<li class="nav-link px-3">|</li>
+							<li class="nav-item">
+								<a class="nav-link text-bold text-gray" href="#">Servicios</a>
+							</li>
+							<li class="nav-link px-3 ">|</li>
+							<li class="nav-item">
+								<a class="nav-link text-bold text-gray" href="#">Proyectos</a>
+							</li>
+							<li class="nav-link px-3">|</li>
+							<li class="nav-item">
+								<a class="nav-link text-bold text-gray" href="#">Equipos</a>
+							</li>
+							<li class="nav-link px-3">|</li>
+							<li class="nav-item">
+								<a class="nav-link text-bold text-gray" href="#">Blogs</a>
+							</li>
+							<li class="nav-link px-3">|</li>
+							<li class="nav-item">
+								<a class="nav-link text-bold text-gray" href="#">Siguenos</a>
+							</li>
+							</ul>
+						</div>
+					</nav>
+				</div>
 			</header>
 			<section>
-				<div>
-					<img src="img/semilla.jpg" class="img-fluid" alt="...">
+				<div class="bg-img-block" style="background-image:url(img/semilla.jpg); height: 440px;"></div>
+				<div class="container-fluid">
+					<div class="row p-5 mb-4 bg-gray rounded-3">
+						<div class="col-9 container-fluid py-3 text-center">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, perferendis. 
+								Unde dolores exercitationem accusamus nesciunt vero voluptatem, natus dignissimos, 
+								quis, soluta officiis cumque modi excepturi magnam illum perspiciatis laudantium voluptatum.
+							</p>
+						</div>
+					</div>
 				</div>
-				<div class="p-5 mb-4 bg-light rounded-3">
-					<div class="container-fluid py-4 text-center">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, perferendis. 
-							Unde dolores exercitationem accusamus nesciunt vero voluptatem, natus dignissimos, 
-							quis, soluta officiis cumque modi excepturi magnam illum perspiciatis laudantium voluptatum.
-						</p>
-					</div>
-				</div>	
-				<div class="row">
-					<div class="col-5 text-center mx-auto">
-						<img src="img/iconos/mision/mision.png" alt="">
-						<h3>Misión</h3>
-						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-							Expedita tempora laborum quia veniam iste quidem corporis, 
-							hic neque voluptatibus numquam. Cumque pariatur nemo maiores.
-						</p>
-
-					</div>
-					<div class="col-5 text-center mx-auto">
-						<img src="img/iconos/mision/vision.png" alt="">
-						<h3>Visión</h3>
-						<p>
+<!--==================================== MISION Y VISION ==================================-->					
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-5 text-center mx-auto my-5">
+							<img class="mb-2" src="img/iconos/mision/mision.png" alt="">
+							<h3>Misión</h3>
 							<p>
 								Lorem ipsum dolor sit amet consectetur adipisicing elit. 
 								Expedita tempora laborum quia veniam iste quidem corporis, 
 								hic neque voluptatibus numquam. Cumque pariatur nemo maiores.
 							</p>
-						</p>
+						</div>
+						<div class="col-5 text-center mx-auto my-5">
+							<img class="mb-2" src="img/iconos/mision/vision.png" alt="">
+							<h3>Visión</h3>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+								Expedita tempora laborum quia veniam iste quidem corporis, 
+								hic neque voluptatibus numquam. Cumque pariatur nemo maiores.
+							</p>
+						</div>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-6">
-						<img class="img-fluid bg-img-block" src="img/metodo.JPG" alt="">
-					</div>
-					<div class="col-6 text-center bg-img-block" style="background-image:url(img/fondo.jpg); max-width: 100%">
-						<img src="img/iconos/metodologia-icon.png" alt="">
-						<h3>Metodología</h3>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum suscipit ab laborum 
-						necessitatibus officia nemo quasi magni dignissimos animi eos libero delectus, est pariatur 
-						neque nulla, inventore quam? Reprehenderit, deserunt.
-						</p>
-					</div>
-				</div>
-				<div class="text-center">
-					<h3 class="mt-5 mb-4">Servicios</h3>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, maiores non. 
-						Quibusdam excepturi nobis ullam molestiae necessitatibus ducimus voluptatibus 
-						repellendus dignissimos magnam dolor autem placeat accusamus unde, esse blanditiis veritatis.
-					</p>
-				</div>
-				<div class="row">
-					<div class="col-3 text-center mx-auto">
-						<img src="img/iconos/servicios-icon/educacion.png" width="150" height="150" alt="">
-						<h4>Educación para el Desarrollo Sostenible</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-							Nisi nihil neque at cumque. Deserunt inventore maiores 
-							aliquam laudantium, porro.
-						</p>
-					</div>
-					<div class="col-3 text-center mx-auto">
-						<img src="img/iconos/servicios-icon/educacion.png" width="150" height="150" alt="">
-						<h4>Mitigación Cambio Climático</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-							Nisi nihil neque at cumque. Deserunt inventore maiores 
-							aliquam laudantium, porro.
-						</p>
-					</div>
-					<div class="col-3 text-center mx-auto">
-						<img src="img/iconos/servicios-icon/bienestar.png" width="150" height="150" alt="">
-						<h4>Bienestar Ocupacional</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-							Nisi nihil neque at cumque. Deserunt inventore maiores 
-							aliquam laudantium, porro.
-						</p>
+<!--==================================== FIN MISION Y VISION ==================================-->	
+<!--==================================== METODOLOGIA ==================================-->				
+				<div class="container-fluid mb-3">
+					<div class="row">
+						<div class="col-6 bg-img-block"  style="background-image:url(img/metodo.JPG);height: 450px; max-width: 100%">	
+						</div>
+						<div class="col-6 text-center bg-img-block text-white pt-5" style="background-image:url(img/fondo.jpg); max-width: 100%">
+							<img class="pt-4" src="img/iconos/metodologia-icon.png" alt="">
+							<h4 class="my-4">Metodología</h4>
+							<p class="px-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum suscipit ab laborum 
+							necessitatibus officia nemo quasi magni dignissimos animi eos libero delectus, est pariatur 
+							neque nulla, inventore quam? Reprehenderit, deserunt.
+							</p>
+						</div>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-3 text-center mx-auto">
-						<img src="img/iconos/servicios-icon/seguridad-icon.png" width="150" height="150" alt="">
-						<h4>Consultorías en Seguridad Industrial y Medio Ambiente</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-							Nisi nihil neque at cumque. Deserunt inventore maiores 
-							aliquam laudantium, porro.
-						</p>
+<!--==================================== FIN METODOLOGIA ==================================-->
+<!--==================================== SERVICIOS ==================================-->
+				<div class="container-fluid mb-5 ">
+					<div class="row text-center">
+						<div class="col-9 mx-auto">
+							<h4 class="mt-5 mb-4">Servicios</h4>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, maiores non. 
+								Quibusdam excepturi nobis ullam molestiae necessitatibus ducimus voluptatibus 
+								repellendus dignissimos magnam dolor autem placeat accusamus unde, esse blanditiis veritatis.
+							</p>
+						</div>
 					</div>
-					<div class="col-3 text-center mx-auto">
-						<img src="img/iconos/servicios-icon/manejo-de-agua.png" width="150" height="150" alt="">
-						<h4>Manejo de Aguas</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-							Nisi nihil neque at cumque. Deserunt inventore maiores 
-							aliquam laudantium, porro.
-						</p>
+					<div class="row px-5 py-4">
+						<div class="col-3 text-center mx-auto">
+							<img src="img/iconos/servicios-icon/educacion.png" width="150" height="150" alt="">
+							<h5 class="mt-3 mb-4 text-green">Educación para el Desarrollo Sostenible</h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+								Nisi nihil neque at cumque. Deserunt inventore maiores 
+								aliquam laudantium, porro.
+							</p>
+						</div>
+						<div class="col-3 text-center mx-auto">
+							<img src="img/iconos/servicios-icon/educacion.png" width="150" height="150" alt="">
+							<h5 class="mt-3 mb-4 text-green">Mitigación Cambio Climático</h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+								Nisi nihil neque at cumque. Deserunt inventore maiores 
+								aliquam laudantium, porro.
+							</p>
+						</div>
+						<div class="col-3 text-center mx-auto">
+							<img src="img/iconos/servicios-icon/bienestar.png" width="150" height="150" alt="">
+							<h5 class="mt-3 mb-4 text-green">Bienestar Ocupacional</h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+								Nisi nihil neque at cumque. Deserunt inventore maiores 
+								aliquam laudantium, porro.
+							</p>
+						</div>
 					</div>
-					<div class="col-3 text-center mx-auto">
-						<img src="img/iconos/servicios-icon/agricultura-icon.png" width="150" height="150" alt="">
-						<h4>Agricultura</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-							Nisi nihil neque at cumque. Deserunt inventore maiores 
-							aliquam laudantium, porro.
-						</p>
+					<div class="row px-5 pt-4 pb-5">
+						<div class="col-3 text-center mx-auto">
+							<img src="img/iconos/servicios-icon/seguridad-icon.png" width="150" height="150" alt="">
+							<h5 class="mt-3 mb-4 text-green">Consultorías en Seguridad Industrial y Medio Ambiente</h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+								Nisi nihil neque at cumque. Deserunt inventore maiores 
+								aliquam laudantium, porro.
+							</p>
+						</div>
+						<div class="col-3 text-center mx-auto">
+							<img src="img/iconos/servicios-icon/manejo-de-agua.png" width="150" height="150" alt="">
+							<h5 class="mt-3 mb-4 text-green">Manejo de Aguas</h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+								Nisi nihil neque at cumque. Deserunt inventore maiores 
+								aliquam laudantium, porro.
+							</p>
+						</div>
+						<div class="col-3 text-center mx-auto">
+							<img src="img/iconos/servicios-icon/agricultura-icon.png" width="150" height="150" alt="">
+							<h5 class="mt-3 mb-4 text-green">Agricultura</h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+								Nisi nihil neque at cumque. Deserunt inventore maiores 
+								aliquam laudantium, porro.
+							</p>
+						</div>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-5">
-						<img src="img/fotos/img-0352.JPG" alt="">
+<!--==================================== FIN METODOLOGIA ==================================-->
+<!-- ========================== PROYECTOS ====================================-->
+				<div class="bg-green text-white pd-5-10">
+					<div class="row text-center pb-4">
+						<h4>Proyectos</h4>
 					</div>
-					<div class="col-7">
-						<h2>Nombre del Proyecto 1</h2>
-						<h4>Nombre del Distrito</h4>
-						<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-							Neque dolorem optio nesciunt quasi consequatur provident 
-							dolores modi, voluptatem itaque saepe velit sint, sunt vero 
-							labore mollitia consectetur veritatis laborum sit?
-						</p>
+					<div class="row pb-4">
+						<div class="col-6">
+							<img class="img-proyectos" src="img/fotos/img-0352.JPG" alt="">
+						</div>
+						<div class="col-6">
+							<h4>Nombre del Proyecto 1</h4>
+							<h5 class="mb-4">Nombre del Distrito</h5>
+							<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+								Neque dolorem optio nesciunt quasi consequatur provident 
+								dolores modi, voluptatem itaque saepe velit sint, sunt vero 
+								labore mollitia consectetur veritatis laborum sit?
+							</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-6">
+							<img class="img-proyectos" src="img/fotos/img-9246.jpg" alt="">
+						</div>
+						<div class="col-6">
+							<h4>Nombre del Proyecto 2</h4>
+							<h5 class="mb-4">Nombre de Distrito</h5>
+							<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+								Neque dolorem optio nesciunt quasi consequatur provident 
+								dolores modi, voluptatem itaque saepe velit sint, sunt vero 
+								labore mollitia consectetur veritatis laborum sit?
+							</p>
+						</div>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-5">
-						<img src="img/fotos/img-9246.jpg" alt="">
-					</div>
-					<div class="col-7">
-						<h2>Nombre del Proyecto 2</h2>
-						<h4>Nombre de Distrito</h4>
-						<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-							Neque dolorem optio nesciunt quasi consequatur provident 
-							dolores modi, voluptatem itaque saepe velit sint, sunt vero 
-							labore mollitia consectetur veritatis laborum sit?
-						</p>
-					</div>
-				</div>
-				<div class="row">
-					<h3>Equipo</h3>
-					<div class="col-6">
-						<img src="img/fotos/equipo2.jpg" alt="">
-						<h3>Camila Basurco</h3>
-						<h5>Cargo desempeñado</h5>
+<!-- ========================== FIN PROYECTOS ====================================-->
+<!-- ============================= EQUIPO ======================================-->
+				<div class="row text-center mt-5 pb-5">
+					<h3 class="text-green mg-0">Equipo</h3>
+					<div class="col-4 text-center mx-auto">
+						<img  src="img/fotos/equipo2.jpg" class="rounded-circle"  alt="">
+						<h4 class="mt-4 mb-3">Camila Basurco</h4>
+						<h6 class="text-bold mg-0">Cargo desempeñado</h6>
 						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
 							Excepturi voluptatibus saepe ipsa quam quidem? Totam cum 
 							maxime officia voluptate numquam dolores hic.
 						</p>
-						<img src="img/iconos/redes-sociales/twitter.png" alt="">
-						<img src="img/iconos/redes-sociales/in.png" alt="">	
-						<img src="img/iconos/redes-sociales/mensaje.png" alt="">
+						<img class="iconos-equipo" src="img/iconos/redes-sociales/twitter.png" alt="">
+						<img class="iconos-equipo" src="img/iconos/redes-sociales/in.png" alt="">	
+						<img class="iconos-equipo" src="img/iconos/redes-sociales/mensaje.png" alt="">
 					</div>
-					<div class="col-6">
-						<img src="img/fotos/equipo3.jpg" alt="">
-						<h3>Gabriela Bertocci</h3>
-						<h5>Cargo desempeñado</h5>
+					<div class="col-4 text-center mx-auto">
+						<img src="img/fotos/equipo3.jpg" class="rounded-circle" alt="">
+						<h4 class="mt-4 mb-3">Gabriela Bertocci</h4>
+						<h6 class="text-bold mg-0">Cargo desempeñado</h6>
 						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
 							Excepturi voluptatibus saepe ipsa quam quidem? Totam cum 
 							maxime officia voluptate numquam dolores hic.
 						</p>
-						<img src="img/iconos/redes-sociales/twitter.png" alt="">
-						<img src="img/iconos/redes-sociales/in.png" alt="">	
-						<img src="img/iconos/redes-sociales/mensaje.png" alt="">
+						<img class="iconos-equipo" src="img/iconos/redes-sociales/twitter.png" alt="">
+						<img class="iconos-equipo" src="img/iconos/redes-sociales/in.png" alt="">	
+						<img class="iconos-equipo" src="img/iconos/redes-sociales/mensaje.png" alt="">
 					</div>
 				</div>
-				<div class="row">
-					<h2>Blog</h2>
+<!-- ========================== FIN EQUIPO ======================================-->
+<!-- ========================== BLOG ======================================-->
+				<div class="container">
+				<div class="row  pt-5 mt-5" style="background-image:url(img/fondo2.jpg);">
+					<div class="text-center">
+						<h4>Blog</h4>
+					</div>
+					<div id="carouselExampleControls" class="carousel slide pb-3 pt-3" data-bs-ride="carousel">
+						<div class="carousel-inner">
+						<!-- ==============  PRIMER ITEM X 3 TARJETAS ======================-->
+							<div class="carousel-item active">
+								<div class="row justify-content-center">
+									<!-- ==============  UNO ======================-->
+									<div class="col-3">
+										<div style="width: 18rem;">
+											<img src="./img/fotos/img-0400.JPG" class="card-img-top" alt="...">
+											<div>
+												<h3 class="mb-0">Título del Post</h3>
+												<h5 class="mb-0">01.Ene.2015</h5>
+												<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+													Architecto, facere suscipit, eius culpa delectus dolores 
+													accusamus at facilis ipsa impedit excepturi aperiam vero 
+													debitis.
+												</p>
+											</div>
+										</div>
+									</div>
+									<!-- ==============  DOS ======================-->
+									<div class="col-3">
+										<div style="width: 18rem;">
+											<img src="./img/fotos/IMG_0334.JPG" class="card-img-top" alt="...">
+											<div>
+												<h3 class="mb-0">Título del Post 2</h3>
+												<h5 class="mb-0">31.Dic.2014</h5>
+												<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+													Architecto, facere suscipit, eius culpa delectus dolores 
+													accusamus at facilis ipsa impedit excepturi aperiam vero 
+													debitis.
+												</p>
+											</div>
+										</div>
+									</div>
+									<!-- ==============  TRES ======================-->
+									<div class="col-3 text-green">
+										<div style="width: 18rem;">
+											<img src="./img/fotos/img-0352.JPG" class="card-img-top" alt="...">
+											<div>
+												<h3 class="mb-0">Título del Post 3</h3>
+												<h5 class="mb-0">30.Dic.2014</h5>
+												<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+													Architecto, facere suscipit, eius culpa delectus dolores 
+													accusamus at facilis ipsa impedit excepturi aperiam vero 
+													debitis.
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						<!-- ==============  SEGUNDO ITEM X 3 TARJETAS ======================-->
+							<div class="carousel-item">
+								<div class="row justify-content-center">
+									<!-- ==============  UNO ======================-->
+									<div class="col-3">
+										<div style="width: 18rem;">
+											<img src="./img/fotos/img-0400.JPG" class="card-img-top" alt="...">
+											<div>
+												<h3 class="mb-0">Título del Post</h3>
+												<h5 class="mb-0">01.Ene.2015</h5>
+												<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+													Architecto, facere suscipit, eius culpa delectus dolores 
+													accusamus at facilis ipsa impedit excepturi aperiam vero 
+													debitis.
+												</p>
+											</div>
+										</div>
+									</div>
+									<!-- ==============  DOS ======================-->
+									<div class="col-3">
+										<div style="width: 18rem;">
+											<img src="./img/fotos/IMG_0334.JPG" class="card-img-top" alt="...">
+											<div>
+												<h3 class="mb-0">Título del Post</h3>
+												<h5 class="mb-0">01.Ene.2015</h5>
+												<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+													Architecto, facere suscipit, eius culpa delectus dolores 
+													accusamus at facilis ipsa impedit excepturi aperiam vero 
+													debitis.
+												</p>
+											</div>
+										</div>
+									</div>
+									<!-- ==============  TRES ======================-->
+									<div class="col-3 text-green">
+										<div style="width: 18rem;">
+											<img src="./img/fotos/img-0352.JPG" class="card-img-top" alt="...">
+											<div>
+												<h3 class="mb-0">Título del Post</h3>
+												<h5 class="mb-0">01.Ene.2015</h5>
+												<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+													Architecto, facere suscipit, eius culpa delectus dolores 
+													accusamus at facilis ipsa impedit excepturi aperiam vero 
+													debitis.
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+							<img src="img/iconos/slider/ecomunidad-15.png" alt="" width="50px"> 
+						</button>
+						<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+							<img src="img/iconos/slider/ecomunidad-16.png" alt="" width="50px"> 
+						</button>
+					</div>
 				</div>
-				<div class="row">
-					<h1>Facebook</h1>
-					<h1>Twitter</h1>
-					<h1>LinKedIn</h1>
-					<h1>E-mail</h1>
 				</div>
+<!-- ========================== FIN BLOG ======================================-->
+<!-- ========================== REDES SOCIALES ======================================-->
+				<div class="container-fluid">
+					<div class="row bg-black pd-5-10 text-white">
+						<div class="col-3 border border-1 redes">
+							<div class="row pt-3 ps-2">
+								<div class="col-8">
+									<h4>Facebook</h4>
+								</div>
+								<div class="col-4">
+									<img class="icono-redes-sociales" src="img/facebook.png" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="col-3 border border-1 redes">
+							<div class="row pt-3 ps-2">
+								<div class="col-8">
+									<h4>Twitter</h4>
+								</div>
+								<div class="col-4">
+									<img class="icono-redes-sociales" src="img/twitter.png" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="col-3 border border-1 redes">
+							<div class="row pt-3 ps-2">
+								<div class="col-8">
+									<h4>LinkedIn</h4>
+								</div>
+								<div class="col-4">
+									<img class="icono-redes-sociales" src="img/in.png" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="col-3 border border-1 redes">
+							<div class="row pt-3 ps-2">
+								<div class="col-8">
+									<h4>E-mail</h4>
+								</div>
+								<div class="col-4">
+									<img class="icono-redes-sociales" src="img/email.png" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+<!-- ========================== FIN REDES SOCIALES ======================================-->
 			</section>
-			<footer class="row">
-				<div>
-				<p>Proyecto desrrollado por <span>Ricardo Vega</span></p>	
-				</div>
-				<div>
-					<p>Ecomunidad Sostenible
-					   hola@ecomunidad.com.pe
-					   51 998 887 776	
-					</p>
+			<footer>
+				<div class="row pd-5-10 mx-auto">
+					<div class="col-3">
+						<p class="mg-0">Proyecto desrrollado por</p>	
+						<p><span class="text-yellow text-bold">Ricardo Vega</span></p>
+					</div>
+					<div class="col-3 text-right offset-md-6">
+						<p class="mg-0">
+							<span class="text-bold">
+							Ecomunidad Sostenible
+							hola@ecomunidad.com.pe 
+							</span>
+						</p>
+						<p>51 998 887 776</p> 	
+						
+					</div>
 				</div>
 			</footer>
 		</div>
+		<script src="js/bootstrap.min.js"></script>
+		
 	</body>
 </html>

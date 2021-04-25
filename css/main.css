@@ -1,1 +1,29 @@
-/* Inserta tu codigo aqui */
+*{
+    margin: 0px;
+    padding: 0px;
+}/* Inserta tu codigo aqui */
+body{
+    font-family: 'Times-Regular', sans-serif;
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Times-Bold', sans-serif;
+}
+#logo{
+    width:120px;
+    height: 110px;
+    
+    display: inline-block;
+}
+.iconos-equipo{
+    width:40px;
+}
+.img-proyectos{
+    width:500px;
+}
+.icono-redes-sociales{
+    width:55px;
+}
+.redes{
+    width: 250px;
+    height:250px ;
+}

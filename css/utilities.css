@@ -2,22 +2,35 @@
 *{
 	font-family: "OpenSans-Light" Helvetica;
 }
-
 @font-face{
-	font-family: OpenSans-Regular;
-	src: url(../fonts/Open/OpenSans-Regular.ttf);
+	font-family: 'OpenSans-Regular';
+	src: url(/fonts/Open/OpenSans-Regular.ttf);
 }
 @font-face{
-	font-family: OpenSans-Light;
-	src: url(../fonts/Open/OpenSans-Light.ttf);
+	font-family: 'OpenSans-Light';
+	src: url(/fonts/Open/OpenSans-Light.ttf);
 }
 @font-face{
-	font-family: OpenSans-Bold;
+	font-family: 'OpenSans-Bold';
 	src: url(../fonts/Open/OpenSans-Bold.ttf);
+}
+@font-face{
+	font-family: 'Times-Regular';
+	src: url(../fonts/Times/times.ttf);
+}
+@font-face{
+	font-family: 'Times-Bold';
+	src: url(../fonts/Times/timesbd.ttf);
+}
+@font-face{
+	font-family: 'Times-Light';
+	src: url(../fonts/Times/timesbi.ttf);
 }
 
 /* Shortcuts */
-
+body{
+    font-family: 'OpenSans-Light', sans-serif;
+}
 .pd-0 {
 	padding: 0;
 }
@@ -79,7 +92,7 @@
 	background-color: #4D4D4D;
 }
 .text-gray{
-	color:#F2F2F2;
+	color:#8d8c8c;
 }
 .text-black{
 	color: #4D4D4D;
